@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+     <link rel="stylesheet" href="styles/styles.css">
+     <title>Beauty</title> 
+</head>
+<body>
+    <h1 class="main">Registration form</h1>
+    <audio src="images/Звук леса.mp3" controls></audio>
+    <div class="images">
+    </div>
+    
+    <form action="#" method="get" class="form">
+        <fieldset>
+            <legend>Privacy information</legend>
+            <label for="username">Enter your name</label>
+            <input type="text" name="username" id="username" placeholder="Enter your name" required tabindex="1">
+            <br>            
+            <label for="username">Enter your mail</label>
+            <input type="email" name="usermail" id="usermail" placeholder="ex@mail.ru" tabindex="2">    
+            <br>
+            <label for="username">Enter your password</label>
+            <input type="password" name="password" id="password">
+            <br>
+            <label for="age">Enter your age</label>
+            <input type="date" name="age" id="age" min="12" max="99">
+            <br>
+            <label for="avatar">Avatar</label>
+            <input type="file" name="avatar" id="avatar">
+            <br>
+            <p>Your gender</p>
+            <label for="male">Male</label>
+            <input type="radio" name="avatar" id="male" checked>
+            <br>
+            <label for="female">Female</label>
+            <input type="radio" name="avatar" id="female">
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>Your skills</legend>
+            <label for="it">IT</label>
+            <input type="checkbox" name="it" id="it">
+            <br>
+            <label for="sport">sport</label>
+            <input type="checkbox" name="sport" id="sport">
+            <br>
+            <label for="music">music</label>
+            <input type="checkbox" name="music" id="music">
+            <br>
+            <label for="about">Write about you</label>
+            <textarea name="about" id="about" cols="20" rows="3"></textarea>
+            <label for="skills">Skills</label>
+            <select name="skills" id="skills">
+                <option value="JS">JS</option>
+                <option value="CSS">CSS</option>
+                <option value="html">html</option>
+            </select>
+        </fieldset>
+        <button type="submit">Отправить</button>
+        <button type="reset">Очистить</button>
+    </form>
+</body>
+</html>

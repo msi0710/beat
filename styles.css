@@ -1,0 +1,92 @@
+* {
+padding: 0;
+margin: 0;
+}
+
+.header {
+   height: 100vh;
+   width: 100vw;
+   position: relative;
+   display: flex;
+}
+
+.header video {
+   height: 100vh;
+   width: 100vw;
+   position: absolute;
+   object-fit: cover;
+   object-position: center;
+   z-index: 0;
+}
+
+.content {
+    z-index: 1;
+    width: 100%;
+    color: blue;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.about {
+    margin-top: 30px;
+    display: flex;
+    padding: 15px;
+    gap: 30px; 
+}
+
+.images {
+   border: 2px solid red;
+   width: 95%;
+   margin-top: 20px;
+   margin-left: 40px;
+   height: 500px;
+   box-shadow: 0 0 15px grey;
+   background: url(https://sportishka.com/uploads/posts/2022-11/1667469867_12-sportishka-com-p-gornii-altai-vkontakte-13.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+
+}
+
+.decoration {
+    background: url(https://deskmed.ru/wp-content/files/photo-2-1536x1536.png);
+    width: 16px;
+    height: 16px; 
+    display: inline-block;
+    background-size: cover;
+}
+
+.decor {
+    background: url(https://telegra.ph/file/a49cb57b7f478535033c9.jpg);
+    width: 16px;
+    height: 16px; 
+    display: inline-block;
+    background-size: cover;
+}
+
+.dec {
+    background: url(https://cdn.worldvectorlogo.com/logos/telegram-2019-logo.svg);
+    width: 16px;
+    height: 16px; 
+    display: inline-block;
+    background-size: cover;
+}
+
+.main {
+    color: burlywood;
+}
+
+body {
+    background-color: chartreuse;
+}
+
+form {
+    margin-left: 200px;
+    margin-right: 200px;
+}
